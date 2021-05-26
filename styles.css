@@ -1,0 +1,33 @@
+#loading_troll{
+    margin-bottom: 100px;
+    margin-left: 200px;
+}
+#loading_troll:hover{
+    animation: 5s infinite troll;
+}
+@keyframes troll{
+    0%{
+        margin-bottom: 100px;
+        margin-left: 200px; 
+    }
+    50%{
+        margin-bottom: 80px;
+    margin-left: 200px;
+    }
+    70%{
+        margin-bottom: 60px;
+    margin-left: 200px;
+    }
+    100%{
+        margin-bottom: 100px;
+    margin-left: 200px;
+    }
+}
+h1{
+    font-family: 'Odibee Sans', cursive;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+h2{
+    font-family: 'Odibee Sans', cursive;
+font-family: 'ZCOOL KuaiLe', cursive;
+}
